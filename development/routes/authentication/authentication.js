@@ -13,7 +13,7 @@ function oauthSignIn() {
 
   // Parameters to pass to OAuth 2.0 endpoint.
   let params = {'client_id': '247786976706-tuadil9n38td0t00pi0r1vici6291jbr.apps.googleusercontent.com',
-                'redirect_uri': 'http://localhost:8080/development/routes/authentication/authentication.html',
+                'redirect_uri': 'http://localhost:8080/development/routes/redirect_after_oauth',
                 'response_type': 'token',
                 'scope': 'https://www.googleapis.com/auth/userinfo.profile',
                 'include_granted_scopes': 'true',
