@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- <script src="https://accounts.google.com/gsi/client" async defer></script> -->
+    <script defer src="./authentication.js"></script>
   </head>
 
   <body>
@@ -52,8 +54,8 @@
               <!--     <p class="text-white">Continue with Facebook</p> -->
               <!--   </div> -->
               <!-- </a> -->
-              <a
-                href="/"
+              <button
+                id="google-signin"
                 class="bg-primary hover:bg-primary/80 duration-200 transition-all px-5 py-2 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
               >
                 <div class="flex items-center gap-5 justify-center">
@@ -73,7 +75,7 @@
                   </svg>
                   <p class="text-white">Continue with Google</p>
                 </div>
-              </a>
+              </button>
               <!-- <a -->
               <!--   href="/" -->
               <!--   class="bg-black hover:bg-black/80 duration-200 transition-all px-5 py-2 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2" -->
