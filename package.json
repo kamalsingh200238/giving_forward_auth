@@ -1,0 +1,13 @@
+{
+  "name": "g_f_git",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx http-server . --cors",
+    "tailwind": "npx tailwindcss -i ./globals.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "tailwindcss": "^3.3.1"
+  }
+}
